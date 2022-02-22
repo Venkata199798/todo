@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .updateed{
+            display: none;
+        }
+        .updateed2{
+            display: inline;
+        }
+        .added{
+            display: none;
+        }
+        .added2{
+            display: inline;
+        }
+        div{
+            display: flex; 
+        }
+        div h2{
+            padding-right: 20px;
+        }
+        .count{
+            display: flex;
+            margin-right: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Todo-List</h1>
+    Task: <input type="text" id="input"/>
+    <button id="btn" onclick="addbtn()">Add</button>
+    <button id="update" onclick="updatentm()">Update</button>
+    <p id="error"></p>
+    <div>
+        <h2>S.no</h2>
+        <h2>Task</h2>
+        <h2>Action</h2>
+    </div>
+    <ol id="ordered">
+    </ol>
+    <script src="index.js"></script>
+</body>
+</html
